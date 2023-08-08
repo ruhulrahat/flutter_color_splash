@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_color_splash/app/flutter_color_splash_app.dart';
-import 'package:flutter_color_splash/features/color_splash/flutter_color_splash_home_page.dart';
+import 'package:flutter_color_splash/features/color_splash/home_page.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  Future<FlutterColorSplashHomePageState> initializeTest(
-    WidgetTester tester,
-  ) async {
+  Future<HomePageState> initializeTest(
+      WidgetTester tester,
+      ) async {
     await tester.pumpWidget(const FlutterColorSplashApp());
 
-    return tester.state(find.byType(FlutterColorSplashHomePage));
+    return tester.state(find.byType(HomePage));
   }
 
-  group('FlutterColorSplashHomePageState', () {
+  group('HomePageState', () {
     test('generateRandomColor generates valid color', () {
-      final pageState = FlutterColorSplashHomePageState();
+      final pageState = HomePageState();
       final Color color = pageState.generateRandomColor();
       expect(color, isInstanceOf<Color>());
     });
