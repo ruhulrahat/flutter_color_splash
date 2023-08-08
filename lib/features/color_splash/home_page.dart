@@ -4,10 +4,9 @@ import 'package:flutter_color_splash/core/constants/text_constants.dart';
 import 'package:flutter_color_splash/core/themes/text_styles.dart';
 
 // ignore_for_file: avoid-late-keyword
-
 /// The HomePage widget is stateful.
 ///
-/// It builds a [Container] with a background color that changes on every tap.
+/// It builds a [ColoredBox] with a background color that changes on every tap.
 /// It also displays a text that changes language when tapped.
 class HomePage extends StatefulWidget {
   /// Creates the MyHomePage.
