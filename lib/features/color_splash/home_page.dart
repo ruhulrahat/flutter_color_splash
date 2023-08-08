@@ -5,25 +5,24 @@ import 'package:flutter_color_splash/core/themes/text_styles.dart';
 
 // ignore_for_file: avoid-late-keyword
 
-/// The FlutterColorSplashHomePage widget is stateful.
+/// The HomePage widget is stateful.
 ///
 /// It builds a [Container] with a background color that changes on every tap.
 /// It also displays a text that changes language when tapped.
-class FlutterColorSplashHomePage extends StatefulWidget {
+class HomePage extends StatefulWidget {
   /// Creates the MyHomePage.
-  const FlutterColorSplashHomePage({super.key});
+  const HomePage({super.key});
 
   @override
-  FlutterColorSplashHomePageState createState() =>
-      FlutterColorSplashHomePageState();
+  HomePageState createState() =>
+      HomePageState();
 }
 
-/// The FlutterColorSplashHomePageState is the state for
-/// [FlutterColorSplashHomePage] widget.
+/// HomePageState is the state for [HomePage] widget.
 ///
 /// This will build your main application.
-class FlutterColorSplashHomePageState
-    extends State<FlutterColorSplashHomePage> {
+class HomePageState
+    extends State<HomePage> {
   /// The background color of the widget.
   late Color backgroundColor;
 
