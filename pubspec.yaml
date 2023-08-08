@@ -1,0 +1,24 @@
+name: flutter_color_splash
+description: Flutter Color Splash is an interactive Flutter app that allows users to dynamically change the background color with each interaction and switch text language between English and Ukrainian with a simple tap.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  solid_lints: 0.0.18
+
+
+flutter:
+
+
