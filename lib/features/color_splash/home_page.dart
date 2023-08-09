@@ -13,15 +13,13 @@ class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
   @override
-  HomePageState createState() =>
-      HomePageState();
+  HomePageState createState() => HomePageState();
 }
 
 /// HomePageState is the state for [HomePage] widget.
 ///
 /// This will build your main application.
-class HomePageState
-    extends State<HomePage> {
+class HomePageState extends State<HomePage> {
   /// The background color of the widget.
   late Color backgroundColor;
 

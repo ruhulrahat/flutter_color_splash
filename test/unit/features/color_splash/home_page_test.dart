@@ -5,8 +5,8 @@ import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   Future<HomePageState> initializeTest(
-      WidgetTester tester,
-      ) async {
+    WidgetTester tester,
+  ) async {
     await tester.pumpWidget(const FlutterColorSplashApp());
 
     return tester.state(find.byType(HomePage));
